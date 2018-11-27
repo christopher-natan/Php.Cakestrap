@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+             <span class="badge">{{content}}</span>
+         ]]>
+    </container>
+</cakestrap>

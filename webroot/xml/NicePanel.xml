@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+           <div class="panel panel-default nice-panel">
+              <span class="panel-icon"><i class="fa {{icon}}"></i></span>
+              <div class="panel-heading">{{title}}</div>
+              {{note}}
+              <div class="panel-body">
+                    {{content}}
+              </div>
+           </div>
+         ]]>
+    </container>
+    <title>
+        <![CDATA[
+            <h4 class="panel-title">{{title}}</h4>
+         ]]>
+    </title>
+    <note>
+        <![CDATA[
+            <div class="panel-note well">{{note}}</div>
+        ]]>
+    </note>
+</cakestrap>

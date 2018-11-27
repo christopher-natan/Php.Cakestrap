@@ -1,0 +1,175 @@
+/*=============================================*/
+/* category-tree                               */
+/*=============================================*/
+
+.jstree-default .jstree-clicked {
+    background: #EEEEEE !important;
+    border-radius: 0px;
+}
+.jstree-default .jstree-hovered {
+    background: #F8F8F8 !important;
+    border-radius: 0px;
+}
+.jstree-default > .jstree-ul .jstree-hovered,
+.jstree-default > .jstree-ul .jstree-clicked {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.vakata-context, .vakata-context ul {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px #999999;
+}
+
+/*=============================================*/
+/* loader                                      */
+/*=============================================*/
+
+img.loader {
+    margin: 0;
+    display: none
+}
+
+/*=============================================*/
+/* form                                        */
+/*=============================================*/
+
+span.error {
+    font-size: 11px;
+    color: #a94442;
+    padding-top: 2px;
+}
+
+.btn {
+    margin-right: 5px
+}
+
+.form-control {
+    height: 32px;
+    line-height: 1.42857;
+    padding: 4px 8px;
+}
+.control-label { text-align: left !important; padding-left: 20px; opacity: .9; font-weight: normal}
+
+/*=============================================*/
+/* overlay                                     */
+/*=============================================*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    color: white;
+    display: inline-block;
+    background: url("/cakestrap/img/loader-box.gif") no-repeat center;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: none;
+}
+
+/*=============================================*/
+/* control note                                */
+/*=============================================*/
+
+.control-note { font-size: 0.9em;
+    height: 19px;
+}
+.control-note i { color: #5bc0de; margin-right: 3px}
+
+/*=============================================*/
+/* dropdown menu                               */
+/*=============================================*/
+
+.dropdown-menu > li > a {
+    color: #666;
+    font-weight: 400;
+    font-size: 12px;
+}
+.dropdown-menu > li > a i { margin-right: 15px; opacity: .6}
+.dropdown-menu { z-index: 1001}
+.dropdown-toggle i { font-size: 18px; margin-right: 5px}
+
+/*=============================================*/
+/* tab                                         */
+/*=============================================*/
+.tab-content { padding: 20px 0 0 0}
+
+/*=============================================*/
+/* alert                                       */
+/*=============================================*/
+
+.alert-default i {
+    font-size: 18px;
+    padding-right: 5px;
+    vertical-align: middle;
+    opacity:.8;
+}
+
+/*=============================================*/
+/* nav-bar                                     */
+/*=============================================*/
+
+.navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.86);
+    border-color: #DDDDDD;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #3070a9;
+    color: #fff !important;
+}
+.navbar-inverse .navbar-brand {
+    color: #666666;
+}
+
+/*=============================================*/
+/* select                                    */
+/*=============================================*/
+
+.bootstrap-select .dropdown-toggle, .bootstrap-select .dropdown-toggle:hover, .bootstrap-select .dropdown-toggle:focus {
+   background-color: white !important;
+}
+
+/*=============================================*/
+/* file-input                                   */
+/*=============================================*/
+
+.file-input-container .control-label {
+    padding-top: 0px !important;
+}
+
+/*=============================================*/
+/* predefine                                   */
+/*=============================================*/
+
+.row-no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row-padding-1 > [class*="col-"] {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.col-margin-left-0 {
+    padding-left: 0px !important;
+}
+
+.margin-top-15 { margin-top: 20px}
+.margin-top-20 { margin-top: 20px}
+
+/*=============================================*/
+/* other adjustment                            */
+/*=============================================*/
+
+.jumbotron {
+    background-color: transparent
+}
+.thumbnail {
+    padding: 1px;
+}
+.jumbotron p { font-size: 12px;}

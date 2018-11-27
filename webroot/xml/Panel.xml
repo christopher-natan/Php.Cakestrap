@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+           <div class="panel panel-default">
+              <div class="panel-heading">
+                    {{title}}
+              </div>
+              <div class="panel-body">
+                    {{content}}
+              </div>
+           </div>
+         ]]>
+    </container>
+    <title>
+        <![CDATA[
+             <h4 class="panel-title">{{title}}</h4>
+         ]]>
+    </title>
+</cakestrap>

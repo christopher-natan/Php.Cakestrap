@@ -1,0 +1,23 @@
+{
+    "name": "DevString/Cakestrap",
+    "description": "Bootstrap 3 plugin",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cakestrap\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cakestrap\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}

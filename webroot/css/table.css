@@ -1,0 +1,6 @@
+.table-bordered tr td {
+    padding: 5px !important;
+}
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom-width: 1px;
+}

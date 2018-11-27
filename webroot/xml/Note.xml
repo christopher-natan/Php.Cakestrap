@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+             <div class="note"> {{spacer}} <i class="fa {{icon}}"></i> {{content}} </div>
+         ]]>
+    </container>
+    <spacer>
+        <![CDATA[
+            <label class="col-sm-3 control-label"></label>
+         ]]>
+    </spacer>
+</cakestrap>

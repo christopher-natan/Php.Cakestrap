@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+           <ul class="nav nav-pills {{stacked}}">{{content}}</ul>
+        ]]>
+    </container>
+    <item>
+        <![CDATA[
+            <li role="presentation" class="{{active}}">{{value}}</li>
+        ]]>
+    </item>
+</cakestrap>

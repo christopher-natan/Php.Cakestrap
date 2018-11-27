@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+            <div class='tab'>
+            {{tabList}}
+            {{content}}
+            </div>
+         ]]>
+    </container>
+    <tabList>
+        <![CDATA[
+            <ul class="nav nav-tabs" role="tablist">{{tabList}}</ul>
+         ]]>
+    </tabList>
+    <content>
+        <![CDATA[
+           <div class="tab-content">{{content}}</div>
+         ]]>
+    </content>
+    <title>
+        <![CDATA[
+           <li role="presentation" class="{{active}}"><a href="#{{id}}" aria-controls="{{id}}" role="tab" data-toggle="tab">{{title}}</a></li>
+         ]]>
+    </title>
+    <tabPanel>
+        <![CDATA[
+            <div role="tabpanel" class="tab-pane {{active}}" id="{{id}}">{{tabPanel}}</div>
+         ]]>
+    </tabPanel>
+</cakestrap>

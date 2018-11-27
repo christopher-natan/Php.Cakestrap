@@ -1,0 +1,100 @@
+/*=============================================*/
+/* defaults                                    */
+/*=============================================*/
+.side-menu-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: fixed;
+    height: 100%;
+    background-color: #F9F9F9;
+    margin-top: 2px;
+    border-right: 1px solid #dddddd;
+    z-index: 1001;
+}
+.side-menu-wrapper.col-lg-3 { }
+.side-menu {
+    padding-left: 0;
+    background-color: #f9f9f9;
+    bottom: 0;
+    display: block;
+    left: 0;
+    overflow: visible;
+    padding: 0;
+    top: 50px;
+    box-shadow: none;
+}
+.side-menu .panel-heading a {
+    color: #666;
+    font-size: 13px !important;
+    outline: none;
+}
+.side-menu .panel-body{
+    padding: 0px;
+}
+.side-menu .panel-heading a:focus, .side-menu .panel-heading a:active {
+    text-decoration: none;
+}
+.side-menu .panel-heading {
+    border-bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 1px solid #ddd;
+    margin-top: 0;
+    padding: 10px 15px;
+}
+.side-menu .panel-default > .panel-heading { background: transparent}
+.side-menu .panel {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.side-menu .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: transparent;
+}
+.side-menu .fa:first-child {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 100px;
+    color: #666;
+    font-size: 11px;
+    margin: 0 7px 0 0;
+    padding: 5px;
+    text-align: center;
+    opacity: .7;
+}
+.side-menu .panel-group .panel + .panel {
+    margin-top: -1px;
+}
+.side-menu  .nav > li > a {
+    padding: 6px 15px 6px 47px;
+    font-size: 12px;
+}
+.side-menu .nav-pills > li > a {
+    border-radius: 0;
+}
+.side-menu .fa.chevron {
+    float: right;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 6px;
+    opacity: .7;
+}
+.side-menu .panel-title { font-size: 13px}
+.side-menu .panel-default .panel-heading {
+    border-bottom: 1px solid #ddd;
+}
+.side-menu .panel-default:last-child {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.010);
+}
+
+/*=============================================*/
+/* theme                                       */
+/*=============================================*/
+.side-menu .panel-heading.active {
+    background-color: #3070A9;
+    border:0 none;
+    width: 100.3%;
+}
+.side-menu .panel-heading.active h4, .side-menu .panel-heading.active i {
+    color: #ffffff;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+               <ul id="{{id}}" class="nav navbar-nav navbar-right">{{content}}</ul>
+            ]]>
+    </container>
+    <menu>
+        <![CDATA[
+               <a href="{{url}}" class="dropdown-toggle" data-toggle="{{dropdown}}">
+                   <i class="fa {{icon}}"></i>
+                   {{title}}
+                   {{caret}}
+               </a>
+            ]]>
+    </menu>
+    <item>
+        <![CDATA[
+              <li>
+                    <a href="{{url}}"><i class="fa {{icon}}"></i> {{title}}</a>
+              </li>
+         ]]>
+    </item>
+</cakestrap>

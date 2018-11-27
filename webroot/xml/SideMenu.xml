@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+             <div id="{{id}}" class="panel-group" role="tablist" aria-multiselectable="true">
+                {{content}}
+             </div>
+         ]]>
+    </container>
+    <menu>
+        <![CDATA[
+            <div class="panel-heading {{active}}" role="tab" id="head_{{id}}">
+                <a href="{{url}}" role="button" {{toggle}} data-parent="#{{containerId}}"  aria-expanded="true" aria-controls="item_{{id}}">
+                    <h4 class="panel-title">
+                        <i class="fa {{icon}}"></i>{{title}}{{chevron}}
+                    </h4>
+                </a>
+            </div>
+         ]]>
+    </menu>
+    <item>
+        <![CDATA[
+            <li role="presentation" class=""><a href="{{url}}">{{title}}</a></li>
+         ]]>
+    </item>
+    <itemContainer>
+        <![CDATA[
+            <div id="item_{{id}}" class="panel-collapse collapse {{open}}" role="tabpanel" aria-labelledby="head_{{id}}" aria-expanded="false">
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">{{item}}</ul>
+                </div>
+            </div>
+         ]]>
+    </itemContainer>
+</cakestrap>

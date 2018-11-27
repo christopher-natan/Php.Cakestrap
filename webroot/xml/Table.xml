@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+            <div class="table-responsive">
+                 <table class="table table-bordered {{class}}" id="{{id}}">{{content}}</table>
+            </div>
+         ]]>
+    </container>
+    <head>
+        <![CDATA[
+             <thead><tr>{{head}}</tr></thead>
+         ]]>
+    </head>
+    <body>
+        <![CDATA[
+            <tbody>{{body}}</tbody>
+         ]]>
+    </body>
+    <tr>
+        <![CDATA[
+           <tr class="{{id}}">{{tr}}</tr>
+         ]]>
+    </tr>
+</cakestrap>

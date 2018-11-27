@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cakestrap>
+    <container>
+        <![CDATA[
+          <div class='form-group file-input-container'>
+              <label for="name" class="col-sm-3 control-label">{{title}}</label>
+              <div class="col-sm-6">
+                   <div class="fileinput-main fileinput {{status}}" data-provides="fileinput">
+                      <div class="fileinput-preview fileinput-exists thumbnail">
+                         {{file}}
+                      </div>
+
+                      <div>
+                        <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span>
+                        <input type="file" name="{{name}}" class='file-input-image' accept="image/*" ></span>
+                        <a href="javascript:void(1)" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+        ]]>
+    </container>
+</cakestrap>
