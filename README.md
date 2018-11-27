@@ -1,5 +1,5 @@
 ## Cakestrap
-A Twitter Bootstrap plugin for CakePHP 2.+
+A Twitter Bootstrap 3 plugin for CakePHP 2.+
 
 #### API Documentation
 You can read the API documentation
