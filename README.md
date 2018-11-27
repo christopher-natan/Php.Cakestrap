@@ -103,11 +103,11 @@ src/Template/Users/index.ctp
 ```
 
 ###### Autoloading Plugin Classes:
-Modify your application�s composer.json file and add the Bootstrap plugin details like the following information below.
+Modify your application's composer.json file and add the Bootstrap plugin details like the following information below.
 ```php
    "autoload": {
         "psr-4": {
-			     "Cakestrap\\": "./plugins/Cakestrap/src"
+	    "Cakestrap\\": "./plugins/Cakestrap/src"
         }
     },
 ```
