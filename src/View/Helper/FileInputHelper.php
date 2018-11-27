@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Cakestrap
+ *
+ * @author Christopher M. Natan
+ * @version 1.0
+ */
 namespace Cakestrap\View\Helper;
 
 class FileInputHelper extends Basic

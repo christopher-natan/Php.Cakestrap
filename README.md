@@ -2,10 +2,10 @@
 A Twitter Bootstrap plugin for CakePHP 3.+
 
 #### API Documentation
-You can read the API documentation [here](http://www.cakestrap.com/docs)
+You can read the API documentation
 
 #### Requirements
-- CakePHP version >= 3.+
+- CakePHP version >= 2.+
 - Php >=5.4
 - Composer
 

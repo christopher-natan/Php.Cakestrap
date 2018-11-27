@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Cakestrap
+ *
+ * @author Christopher M. Natan
+ * @version 1.0
+ */
 namespace Cakestrap\View\Helper;
 
 class AlertHelper extends Basic
