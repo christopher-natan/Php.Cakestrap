@@ -18,7 +18,7 @@ curl -s https://getcomposer.org/installer | php
 
 3.) Get this plugin by running the codes in console:
   ```php
-composer require cmnworks/cakestrap
+composer require christopher-natan/php.cakestrap
  ```
 ###### Cloning Repository:
   - Navigate to your CakePHP src/plugins directory
