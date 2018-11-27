@@ -1,8 +1,12 @@
 ## Cakestrap
-A Twitter Bootstrap plugin for CakePHP 3.+
+A Twitter Bootstrap plugin for CakePHP 2.+
 
 #### API Documentation
+<<<<<<< HEAD
 You can read the API documentation
+=======
+You can read the API documentation...
+>>>>>>> 7ba88317e177fe767638d8bd30441c87a91d58a6
 
 #### Requirements
 - CakePHP version >= 2.+
@@ -25,7 +29,7 @@ composer require cmnworks/cakestrap
  ```
 ###### Cloning Repository:
   - Navigate to your CakePHP src/plugins directory
-  - Clone the repository using this link https://github.com/cmnworks/Cakestrap.git
+  - Clone the repository using this link https://github.com/christopher-natan/Php.Cakestrap.git
  
 #### Configuration
   - Locate your src/config folder.
