@@ -1,11 +1,8 @@
 ## Cakestrap
 A Twitter Bootstrap 3 plugin for CakePHP 2.+
 
-#### API Documentation
-You can read the API documentation
-
 #### Requirements
-- CakePHP version >= 2.+
+- CakePHP version >= 2.+ / CakePHP version 3 not supported
 - Php >=5.4
 - Composer
 
@@ -93,16 +90,15 @@ class UsersController extends AppController
 src/Template/Users/index.ctp
 ```php
  <?php
- echo $this->Cakestrap->Tab()
-                      ->nav('Tab 1')
-                      ->content("This Tab 1  needs your attention.")
-                      ->prepare($isActive = true)
+ echo $this->Cakestrap->
+ Tab()->nav('Tab 1')
+      ->content("This Tab 1  needs your attention.")
+      ->prepare($isActive = true)
 
-                      ->nav('Tab 2')
-                      ->content("This Tab 2 needs your attention.")
-                      ->prepare()
-
-                      ->set()
+      ->nav('Tab 2')
+      ->content("This Tab 2 needs your attention.")
+      ->prepare()
+      ->set()
  ?>
 ```
 
@@ -111,7 +107,7 @@ Modify your application�s composer.json file and add the Bootstrap plugin deta
 ```php
    "autoload": {
         "psr-4": {
-			"Cakestrap\\": "./plugins/Cakestrap/src"
+			     "Cakestrap\\": "./plugins/Cakestrap/src"
         }
     },
 ```
