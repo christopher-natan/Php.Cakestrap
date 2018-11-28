@@ -115,3 +115,6 @@ Additionally, you will need to tell Composer to refresh its autoloading cache:
 ```php
 $ php composer.phar dumpautoload
 ```
+
+#### Documentation
+https://christopher-natan.github.io/cakestrap/
