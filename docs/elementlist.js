@@ -1,0 +1,3 @@
+
+var ApiGen = ApiGen || {};
+ApiGen.elements = [["c","Cakestrap\\View\\Helper\\AlertHelper"],["c","Cakestrap\\View\\Helper\\AssetHelper"],["c","Cakestrap\\View\\Helper\\BadgeHelper"],["c","Cakestrap\\View\\Helper\\Basic"],["c","Cakestrap\\View\\Helper\\ButtonItemsHelper"],["c","Cakestrap\\View\\Helper\\CakestrapHelper"],["c","Cakestrap\\View\\Helper\\CallOutHelper"],["c","Cakestrap\\View\\Helper\\CollapseHelper"],["c","Cakestrap\\View\\Helper\\DropdownHelper"],["c","Cakestrap\\View\\Helper\\ListGroupHelper"],["c","Cakestrap\\View\\Helper\\ModalHelper"],["c","Cakestrap\\View\\Helper\\PanelHelper"],["c","Cakestrap\\View\\Helper\\TabHelper"],["c","Cakestrap\\View\\Helper\\TableHelper"],["c","Cakestrap\\View\\Helper\\Templates"],["c","Cakestrap\\View\\Helper\\WellHelper"]];

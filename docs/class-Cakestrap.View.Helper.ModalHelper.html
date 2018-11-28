@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Cakestrap\View\Helper\ModalHelper</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-Cakestrap.html">
+						Cakestrap<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-Cakestrap.View.html">
+						View<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-Cakestrap.View.Helper.html">
+						Helper					</a>
+
+						</li>
+							</ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Cakestrap.View.Helper.AlertHelper.html">AlertHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.AssetHelper.html">AssetHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.BadgeHelper.html">BadgeHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.Basic.html">Basic</a></li>
+				<li><a href="class-Cakestrap.View.Helper.ButtonItemsHelper.html">ButtonItemsHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.CakestrapHelper.html">CakestrapHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.CallOutHelper.html">CallOutHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.CollapseHelper.html">CollapseHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.DropdownHelper.html">DropdownHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.ListGroupHelper.html">ListGroupHelper</a></li>
+				<li class="active"><a href="class-Cakestrap.View.Helper.ModalHelper.html">ModalHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.PanelHelper.html">PanelHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.TabHelper.html">TabHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.TableHelper.html">TableHelper</a></li>
+				<li><a href="class-Cakestrap.View.Helper.Templates.html">Templates</a></li>
+				<li><a href="class-Cakestrap.View.Helper.WellHelper.html">WellHelper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cakestrap.View.Helper.html" title="Summary of Cakestrap\View\Helper"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class ModalHelper</h1>
+
+
+	<div class="description">
+	<p>Modals are streamlined, but flexible, dialog prompts
+with the minimum required functionality and smart defaults.</p>
+
+<pre><span class="xlang">&lt;?php</span>
+<span class="php-keyword1">echo</span> <span class="php-var">$this</span>-&gt;Cakestrap-&gt;Modal()-&gt;<span class="php-keyword2">header</span>(<span class="php-quote">'Alert'</span>)
+                              -&gt;options([<span class="php-quote">'show'</span> =&gt; <span class="php-keyword1">true</span>])
+                              -&gt;body(<span class="php-quote">&quot;This modal  needs your attention, but it's not super important.&quot;</span>)
+                              -&gt;footer(<span class="php-quote">'I am footer.'</span>)
+                              -&gt;set();
+<span class="xlang">?&gt;</span></pre>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Cake\View\Helper
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+			<a href="class-Cakestrap.View.Helper.Basic.html"><span>Cakestrap\View\Helper\Basic</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>Cakestrap\View\Helper\ModalHelper</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cakestrap.html">Cakestrap</a>\<a href="namespace-Cakestrap.View.html">View</a>\<a href="namespace-Cakestrap.View.Helper.html">Helper</a><br>
+		<b>Package:</b> Cakestrap\View\Helper<br>
+
+				<b>Link:</b>
+				<a href="http://getbootstrap.com/javascript/#modals">http://getbootstrap.com/javascript/#modals</a><br>
+			<b>Located at</b> <a href="source-class-Cakestrap.View.Helper.ModalHelper.html#17-183" title="Go to source code">ModalHelper.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="options" id="_options">
+
+		<td class="attributes"><code>
+			 public 
+
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_options">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#81-100" title="Go to source code">options</a>( <span>array <var>$options</var> = []</span> )</code>
+
+		<div class="description short">
+			<p>This method will merge the default modal helper
+options and user-provided options.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>This method will merge the default modal helper
+options and user-provided options.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					object<br>$this
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cakestrap.View.Helper.Basic.html#_options">Cakestrap\View\Helper\Basic::options()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#102-118" title="Go to source code">set</a>( )</code>
+
+		<div class="description short">
+			<p>Set all the defined values.
+This will return the final html template.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set all the defined values.
+This will return the final html template.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_addToContainer" id="__addToContainer">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__addToContainer">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#120-129" title="Go to source code">_addToContainer</a>( )</code>
+
+		<div class="description short">
+			<p>Add the  modal html template to parent container.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add the  modal html template to parent container.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setHeader" id="__setHeader">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setHeader">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#131-149" title="Go to source code">_setHeader</a>( )</code>
+
+		<div class="description short">
+			<p>Set the modal header</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the modal header</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setBody" id="__setBody">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setBody">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#151-160" title="Go to source code">_setBody</a>( )</code>
+
+		<div class="description short">
+			<p>Set the modal body</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the modal body</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setFooter" id="__setFooter">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setFooter">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#162-171" title="Go to source code">_setFooter</a>( )</code>
+
+		<div class="description short">
+			<p>Set the modal footer</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the modal footer</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_contents" id="__contents">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__contents">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#173-182" title="Go to source code">_contents</a>( )</code>
+
+		<div class="description short">
+			<p>And finally set all the html contents</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>And finally set all the html contents</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>$content
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Cakestrap.View.Helper.Basic.html#methods">Cakestrap\View\Helper\Basic</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cakestrap.View.Helper.Basic.html#___call">__call()</a>, 
+			<a href="class-Cakestrap.View.Helper.Basic.html#__reset">_reset()</a>, 
+			<a href="class-Cakestrap.View.Helper.Basic.html#_assignTemplate">assignTemplate()</a>, 
+			<a href="class-Cakestrap.View.Helper.Basic.html#_body">body()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+	<table class="summary methods" id="magicMethods">
+	<caption>Magic methods summary</caption>
+	<tr data-order="header" id="m_header">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_header">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#31" title="Go to source code">header</a>( <span>string <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="body" id="m_body">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_body">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#32" title="Go to source code">body</a>( <span>arrayOrstring <var>$body</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$body</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="footer" id="m_footer">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_footer">#</a>
+		<code><a href="source-class-Cakestrap.View.Helper.ModalHelper.html#33" title="Go to source code">footer</a>( <span>string <var>$footer</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$footer</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_container" id="$_container">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cakestrap.View.Helper.ModalHelper.html#40-45" title="Go to source code"><var>$_container</var></a>
+
+			<div class="description short">
+				<p>Contains parent html tag</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Contains parent html tag</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_container" class="anchor">#</a>
+				<code>[]</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_contents" id="$_contents">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cakestrap.View.Helper.ModalHelper.html#47-52" title="Go to source code"><var>$_contents</var></a>
+
+			<div class="description short">
+				<p>An array of valid content for this helper.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>An array of valid content for this helper.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_contents" class="anchor">#</a>
+				<code>[]</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_options" id="$_options">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cakestrap.View.Helper.ModalHelper.html#54-72" title="Go to source code"><var>$_options</var></a>
+
+			<div class="description short">
+				<p>Default modal options.
+These options  are merged with the user-provided options.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Default modal options.
+These options  are merged with the user-provided options.</p>
+
+<p>-width : You can use either modal-md, modal-lg, modal-sm</p>
+
+<p>-show : Show the modal on page load.</p>
+
+<p>-closable : Enable/disable the close(x) options</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_options" class="anchor">#</a>
+				<code>[
+    <span class="php-quote">'show'</span>   =&gt; <span class="php-keyword1">false</span>,
+    <span class="php-quote">'width'</span>  =&gt; <span class="php-quote">'modal-md'</span>,
+    <span class="php-quote">'id'</span>     =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'closable'</span>=&gt; <span class="php-keyword1">false</span>,
+    <span class="php-quote">'class'</span>   =&gt; <span class="php-quote">''</span>
+]</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_clone" id="$_clone">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cakestrap.View.Helper.ModalHelper.html#74-79" title="Go to source code"><var>$_clone</var></a>
+
+			<div class="description short">
+				<p>A variable that cloned the default $_options.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>A variable that cloned the default $_options.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_clone" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Cakestrap.View.Helper.Basic.html#properties">Cakestrap\View\Helper\Basic</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cakestrap.View.Helper.Basic.html#$_stringTemplate"><var>$_stringTemplate</var></a>, 
+			<a href="class-Cakestrap.View.Helper.Basic.html#$_template"><var>$_template</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
