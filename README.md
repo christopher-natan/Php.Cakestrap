@@ -1,5 +1,5 @@
 ## Cakestrap
-CakePHP 2 plugin for web application that using Bootstrap 3 framework
+CakePHP 2 plugin for web applications that using Bootstrap 3 Css framework. Very easy to implement and easy to use.
 
 #### Requirements
 - CakePHP version >= 2.+ / CakePHP version 3 not supported
