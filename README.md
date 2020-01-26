@@ -1,5 +1,5 @@
 ## Cakestrap
-A Twitter Bootstrap 3 plugin for CakePHP 2.+
+CakePHP 2 plugin for web application that using Bootstrap 3 framework
 
 #### Requirements
 - CakePHP version >= 2.+ / CakePHP version 3 not supported
