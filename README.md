@@ -1,3 +1,5 @@
+Note: I no longer support for this Cakestrap library
+
 ## Cakestrap
 CakePHP 2 plugin for web applications that using Bootstrap 3 Css framework. Very easy to implement and easy to use.
 
